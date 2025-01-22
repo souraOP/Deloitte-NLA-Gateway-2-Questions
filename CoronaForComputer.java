@@ -41,6 +41,7 @@ public class CoronaForComputer {
     int n = sc.nextInt();
 
     // shifting the bits to right will be a good idea
+    // only the right shifted LSB will show
     for(int i: arr){
       System.out.print(i >> n);
       System.out.print(" ");
